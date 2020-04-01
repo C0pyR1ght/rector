@@ -15,9 +15,10 @@ parameters:
         - 'utils'
 
     exclude_paths:
-        - '/Fixture/'
-        - '/Source/'
-        - '/Expected/'
+        - 'Fixture'
+        - 'Source'
+        - 'Expected'
+
 
     exclude_rectors:
         # @todo needs to check for "autoload-dev" local dependency
